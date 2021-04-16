@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T21:15:30.550Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="25lpLYv9nlqi8WhNUVox" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T21:18:23.990Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="uIz0ioZFnbtG8CSEOpeZ" version="14.6.0" type="github">
   <diagram id="tc6vuVGwCVXS1qEcOIbm" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,10 +16,10 @@
         <mxCell id="vAZ1_Js3ERbQowNeJx3b-3" value="PCF GTM LB" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5A30B5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.application_load_balancer;" parent="1" vertex="1">
           <mxGeometry x="582" y="132" width="61" height="61" as="geometry" />
         </mxCell>
-        <mxCell id="vAZ1_Js3ERbQowNeJx3b-4" value="PCF LTM in S3B" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.application_load_balancer;gradientColor=none;fillColor=#A680B8;" parent="1" vertex="1">
+        <mxCell id="vAZ1_Js3ERbQowNeJx3b-4" value="&lt;b&gt;PCF LTM in S3B&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.application_load_balancer;gradientColor=none;fillColor=#A680B8;" parent="1" vertex="1">
           <mxGeometry x="586" y="286" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vAZ1_Js3ERbQowNeJx3b-5" value="PCF LTM in DRM" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.application_load_balancer;gradientColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+        <mxCell id="vAZ1_Js3ERbQowNeJx3b-5" value="&lt;b&gt;PCF LTM in DRM&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.application_load_balancer;gradientColor=none;fillColor=#9AC7BF;" parent="1" vertex="1">
           <mxGeometry x="962" y="286" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vAZ1_Js3ERbQowNeJx3b-6" value="PC1 PCF" style="fillColor=#ffcccc;verticalAlign=top;fontStyle=3;strokeColor=#36393d;fontSize=15;fontColor=#00994D;" parent="1" vertex="1">
@@ -337,7 +337,7 @@
         <mxCell id="yewCtgdkspyeEMJHnDZA-28" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;PCF Router&lt;/b&gt;&lt;/font&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5A30B5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.router;" vertex="1" parent="yewCtgdkspyeEMJHnDZA-20">
           <mxGeometry x="34" y="34" width="35" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="yewCtgdkspyeEMJHnDZA-29" value="PCF LTM in PC1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.application_load_balancer;gradientColor=none;fillColor=#FF9933;" vertex="1" parent="1">
+        <mxCell id="yewCtgdkspyeEMJHnDZA-29" value="&lt;b&gt;PCF LTM in PC1&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.application_load_balancer;gradientColor=none;fillColor=#FF9933;" vertex="1" parent="1">
           <mxGeometry x="181" y="286" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yewCtgdkspyeEMJHnDZA-32" value="&lt;font style=&quot;font-size: 12px&quot;&gt;active&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#330000;fontSize=15;fontColor=#00994D;exitX=0.884;exitY=1.04;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mSUhU7dha5wKDlsOF0BO-2">
