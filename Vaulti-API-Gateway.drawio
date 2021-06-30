@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-30T20:40:02.582Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="T3OmBn0davjYs4AH9E17" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-30T22:51:38.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="QOrjEGuU3J6ORHqXWqZ_" version="14.8.1" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -11,13 +11,13 @@
           <mxGeometry x="45" y="100" width="10" height="435" as="geometry" />
         </mxCell>
         <mxCell id="PQbmAxKCp9ktapXfkUhc-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="7baba1c4bc27f4b0-2" vertex="1">
-          <mxGeometry x="57" y="134" width="10" height="40" as="geometry" />
+          <mxGeometry x="57" y="287" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PQbmAxKCp9ktapXfkUhc-10" value="&lt;font style=&quot;font-size: 13px&quot;&gt;AuthN&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="7baba1c4bc27f4b0-2" target="PQbmAxKCp9ktapXfkUhc-9" edge="1">
+        <mxCell id="PQbmAxKCp9ktapXfkUhc-10" value="&lt;span style=&quot;font-size: 13px&quot;&gt;Validate token&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="7baba1c4bc27f4b0-2" target="PQbmAxKCp9ktapXfkUhc-9" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="62" y="114" as="sourcePoint" />
+            <mxPoint x="62" y="267" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="92" y="114" />
+              <mxPoint x="92" y="267" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -35,8 +35,8 @@
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-14" value="Retrieve Token using API Key" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="661" y="371" as="sourcePoint" />
-            <mxPoint x="961" y="371.0000000000002" as="targetPoint" />
+            <mxPoint x="661" y="439" as="sourcePoint" />
+            <mxPoint x="961" y="439.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PQbmAxKCp9ktapXfkUhc-1" value="Client ID and Secret" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -44,36 +44,41 @@
         </mxCell>
         <mxCell id="PQbmAxKCp9ktapXfkUhc-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="960.9999999999995" y="424.0000000000002" as="sourcePoint" />
-            <mxPoint x="666" y="424" as="targetPoint" />
+            <mxPoint x="960.9999999999995" y="492.0000000000002" as="sourcePoint" />
+            <mxPoint x="666" y="492" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="929" y="424" />
-              <mxPoint x="929" y="424" />
+              <mxPoint x="929" y="492" />
+              <mxPoint x="929" y="492" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="PQbmAxKCp9ktapXfkUhc-16" value="&lt;font style=&quot;font-size: 13px&quot;&gt;Token - good for only 8 hours&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="697" y="395" width="239" height="20" as="geometry" />
+          <mxGeometry x="697" y="463" width="239" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PQbmAxKCp9ktapXfkUhc-20" value="&lt;font style=&quot;font-size: 13px&quot;&gt;GET Secret fpr svc_nppcfmuthyr&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="662" y="468" as="sourcePoint" />
-            <mxPoint x="961.9999999999995" y="468.00000000000045" as="targetPoint" />
+            <mxPoint x="662" y="536" as="sourcePoint" />
+            <mxPoint x="961.9999999999995" y="536.0000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PQbmAxKCp9ktapXfkUhc-22" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="135" y="660" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PQbmAxKCp9ktapXfkUhc-23" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Secret response&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
+        <mxCell id="PQbmAxKCp9ktapXfkUhc-23" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Secret response&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1" target="7baba1c4bc27f4b0-8">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="956" y="506" as="sourcePoint" />
-            <mxPoint x="666" y="506" as="targetPoint" />
+            <mxPoint x="956" y="574" as="sourcePoint" />
+            <mxPoint x="666" y="574" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PQbmAxKCp9ktapXfkUhc-27" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Send OAuth Token&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.4;exitY=0.322;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="404" y="318.06999999999994" as="sourcePoint" />
             <mxPoint x="160" y="319" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUlKyoL1zJgDF3DxYUkt-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.437;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LUlKyoL1zJgDF3DxYUkt-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LUlKyoL1zJgDF3DxYUkt-1" value="API Gateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
@@ -100,6 +105,11 @@
             <Array as="points">
               <mxPoint x="230" y="360" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUlKyoL1zJgDF3DxYUkt-11" value="Get Secrets" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LUlKyoL1zJgDF3DxYUkt-5">
+          <mxGeometry x="0.016" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LUlKyoL1zJgDF3DxYUkt-6" value="" style="endArrow=classic;html=1;entryX=0.1;entryY=0.124;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
